@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 # better errors
 
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 
 
 # Bulma CSS
@@ -37,6 +37,12 @@ gem 'bulma-rails', '~> 0.9.1'
 
 # simple forms
 gem 'simple_form', '~> 5.1'
+
+# Adding Rubo Cop
+gem 'rubocop', '~> 1.19', require: false
+
+# Solograph
+gem 'solargraph', '~> 0.43.0'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -60,10 +66,12 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 # Gurard Command Line tool
 
   gem 'guard', '~> 2.18'
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
 end
 
