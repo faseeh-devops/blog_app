@@ -165,6 +165,7 @@ GEM
     parallel (1.20.1)
     parser (3.0.2.0)
       ast (~> 2.4.1)
+    pg (1.2.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -325,6 +326,7 @@ DEPENDENCIES
   guard-livereload (~> 2.5, >= 2.5.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.6)
   rubocop (~> 1.19)
